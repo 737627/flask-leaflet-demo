@@ -1,36 +1,15 @@
-Flask and Leaflet
+GPCC mapa
 =================
 
-A simple demo integrating Flask and Leaflet.
-
-Clone repo:
-
-```
-git clone http://github.com/adwhit/flask-leaflet-demo
-cd flask-leaflet-demo
-```
-
-Install dependencies:
+Instalar las  dependencias:
 
 ```
 pip install flask flask-sqlalchemy --user
 ```
-
-Create db: 
-
-```
-python demo.py mkdb
-```
-
-Start server:
+Iniciar el servidor:
 
 ```
-python demo.py
+python "main.py"
 ```
 
-View the demo by navigating to `http://localhost:5000`
-
-
-License
--------
-MIT
+View the demo by navigating to `http://127.0.0.1:8000/`
